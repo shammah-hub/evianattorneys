@@ -57,7 +57,7 @@ function Page() {
 </section>
 
 {/* expert legal solutions */}
-<section className="flex flex-col md:flex-row p-6 mt-6 md:mt-0 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
+<section className="flex flex-col md:flex-row pl-24  mt-6 md:mt-0 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
   {/* Left Content */}
   <div className="w-full md:max-w-[500px] space-y-8 md:space-y-12 mb-8 md:mb-0">
     <div className="space-y-4">
@@ -93,15 +93,14 @@ function Page() {
   </div>
   
   {/* Right Image */}
-  <div className="w-full md:w-[40%] lg:w-[50%] xl:w-[700px] bg-[#EFA657]">
+  <div className="w-full md:w-[40%] lg:w-[50%] xl:w-[800px] bg-[#EFA657]">
   <Image 
-  src="/enw.svg"
-  alt="Man"
-  width={200}
-  height={200}
-  className="object-cover"
-  priority // optional: for above-the-fold images
-/>
+    width={200}
+    height={200}
+      src="/enw.svg" 
+      alt="Man" 
+      className="w-full h-auto object-cover" 
+    /> 
   </div>
 </section>
 
