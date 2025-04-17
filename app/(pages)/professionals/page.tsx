@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { ChevronDown, Search } from "lucide-react";
 
-export default function page() {
+export default function Page() {
   const [searchTerm, setSearchTerm] = useState("");
   const [practice, setPractice] = useState("");
   const [level, setLevel] = useState("");
@@ -54,7 +54,7 @@ export default function page() {
   // Create array of letters A-Z
   const letters = Array.from({ length: 26 }, (_, i) => String.fromCharCode(65 + i));
 
-  const handleLetterClick = (letter: any) => {
+  const handleLetterClick = (letter: string) => {
     setSelectedLetter(letter === selectedLetter ? "" : letter);
   };
 

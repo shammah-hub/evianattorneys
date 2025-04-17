@@ -78,31 +78,34 @@ function Page() {
             <div className="md:col-span-8">
               <div className="space-y-6 md:space-y-8">
                 <div>
-                  <h4 className="font-bold text-lg md:text-xl mb-3">
-                    Evian & Co.: Redefining Litigation Excellence in Nigeria
-                  </h4>
+                <h4 className="font-bold text-lg md:text-xl mb-3">
+                     Evian &amp; Co.: Redefining Litigation Excellence in Nigeria
+                </h4>
                   <p className="text-gray-700 leading-relaxed text-justify">
-                    Evian & Co., has been a pillar of litigation excellence in Nigeria. 
+                    Evian &amp; Co., has been a pillar of litigation excellence in Nigeria. 
                     Renowned for our expertise in complex litigation and arbitration, we consistently anticipate
-                    our clients' needs and deliver outcomes that exceed expectations. Our commitment to 
-                    trial-readiness means that every case—whether contested in Nigeria's High Courts, 
+                    our clients&apos; needs and deliver outcomes that exceed expectations. Our commitment to 
+                    trial-readiness means that every case&mdash;whether contested in Nigeria&apos;s High Courts, 
                     Courts of Appeal, or Supreme Court, or resolved through arbitration and specialized 
-                    tribunals—is pursued with meticulous preparation and strategic insight.
+                    tribunals&mdash;is pursued with meticulous preparation and strategic insight.
                   </p>
-                </div>
-                
-                <p className="text-gray-700 leading-relaxed text-justify">
-                  With over 50 seasoned attorneys strategically located nationwide, we represent a diverse range of
-                  clients—from multinational corporations and government agencies to emerging enterprises—in 
-                  virtually every legal arena. Our litigation practice covers a comprehensive spectrum of matters.
-                </p>
 
-                <p className="text-gray-700 leading-relaxed text-justify">
-                  At Evian & Co., we identify critical issues early to leverage every advantage, 
-                  ensuring cost-efficient and decisive resolutions. Our proven approach and deep understanding 
-                  of Nigeria's legal landscape empower our clients to navigate complex disputes with confidence 
-                  and secure outcomes that set industry benchmarks.
-                </p>
+{/* Note: There's a closing </div> tag without a matching opening tag */}
+
+                 <p className="text-gray-700 leading-relaxed text-justify">
+                     With over 50 seasoned attorneys strategically located nationwide, we represent a diverse range of
+                     clients&mdash;from multinational corporations and government agencies to emerging enterprises&mdash;in 
+                       virtually every legal arena. Our litigation practice covers a comprehensive spectrum of matters.
+                    </p>
+
+                 <p className="text-gray-700 leading-relaxed text-justify">
+                   At Evian &amp; Co., we identify critical issues early to leverage every advantage, 
+                   ensuring cost-efficient and decisive resolutions. Our proven approach and deep understanding 
+                   of Nigeria&apos;s legal landscape empower our clients to navigate complex disputes with confidence 
+                    and secure outcomes that set industry benchmarks.
+                   </p>
+
+              </div>
               </div>
             </div>
           </div>

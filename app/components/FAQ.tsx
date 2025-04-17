@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { IoIosArrowDown } from "react-icons/io";
 
 const faqs = [
@@ -18,31 +18,31 @@ const faqs = [
     question: 'Lorem ipsum dolor sit amet consectetur?',
     answer: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.'
   }
-]
+];
 
 function FAQSection() {
-  const [openIndex, setOpenIndex] = useState(null)
-
-  const toggleFAQ = (index: any) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
-
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  
+  const toggleFAQ = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+  
   return (
     <div className="max-w-4xl mx-auto p-6">
       {faqs.map((faq, index) => (
-        <div 
-          key={index} 
+        <div
+          key={index}
           className="border-b border-gray-200 py-4"
         >
-          <div 
+          <div
             onClick={() => toggleFAQ(index)}
             className="flex justify-between items-center cursor-pointer"
           >
             <h3 className="text-lg font-medium">{faq.question}</h3>
-            <IoIosArrowDown 
+            <IoIosArrowDown
               className={`transform transition-transform duration-300 ${
                 openIndex === index ? 'rotate-180' : ''
-              }`} 
+              }`}
             />
           </div>
           {openIndex === index && (
@@ -53,7 +53,7 @@ function FAQSection() {
         </div>
       ))}
     </div>
-  )
+  );
 }
 
-export default FAQSection
+export default FAQSection;

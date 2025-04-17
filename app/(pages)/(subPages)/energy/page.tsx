@@ -76,16 +76,8 @@ function page() {
               <div className="space-y-6 md:space-y-8">
                 <div>
                   <h4 className="font-bold mb-3">
-                    Evian & Co.: Energizing Nigeria's Future
+                  Evian &amp; Co.: Energizing Nigeria&#39;s   
                   </h4>
-                  <p className="text-gray-700 leading-relaxed text-justify">
-                    At Evian & Co., our Energy Practice in Nigeria is at the forefront of navigating
-                    the complexities of one of the country's most vital sectors. We combine deep local insights
-                    with international expertise to offer innovative legal solutions that support every phase of 
-                    the energy value chain. Our team represents a broad spectrum of clients—from multinational 
-                    corporations and government agencies to emerging market players—ensuring that each client's 
-                    strategic and operational objectives are met with precision and excellence.
-                  </p>
                 </div>
                 
                 <p className="text-gray-700 leading-relaxed text-justify">

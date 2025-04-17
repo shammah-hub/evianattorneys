@@ -58,41 +58,34 @@ function page() {
             
             <div className="space-y-8">
               <div>
-                <h4 className="font-bold mb-3">
-                Evian & Co.: Nigeria's Premier Restructuring Advisory Practice
-                </h4>
-                <p className="text-gray-700 leading-relaxed text-justify ">
-                At Evian & Co., our market-leading Restructuring Group in Nigeria delivers
-                 exceptional business advisory and crisis management expertise to guide companies through 
-                 periods of financial distress. Our seasoned team understands Nigeria's dynamic legal and
-                  economic environment and provides integrated solutions for both domestic and cross-border
-                   restructuring and insolvency challenges.
+              <h4 className="font-bold mb-3">
+  Evian &amp; Co.: Nigeria&apos;s Premier Restructuring Advisory Practice
+</h4>
+<p className="text-gray-700 leading-relaxed text-justify">
+  At Evian &amp; Co., our market-leading Restructuring Group in Nigeria delivers
+  exceptional business advisory and crisis management expertise to guide companies through 
+  periods of financial distress. Our seasoned team understands Nigeria&apos;s dynamic legal and
+  economic environment and provides integrated solutions for both domestic and cross-border
+  restructuring and insolvency challenges.
+</p>
+</div>
 
-                </p>
-              </div>
+<p className="text-gray-700 leading-relaxed text-justify">
+  Leveraging decades of experience across diverse sectors&mdash;including manufacturing, 
+  telecommunications, healthcare, energy, retail, and real estate&mdash;we represent distressed 
+  companies, advise creditors on recovery strategies, and support investors in capitalizing 
+  on restructuring opportunities. Our approach combines deep local insights with global best
+  practices to ensure that every restructuring engagement is strategically tailored, 
+  cost-effective, and positioned for long-term success.
+</p>
 
-              <p className="text-gray-700 leading-relaxed text-justify ">
-
-                Leveraging decades of experience across diverse sectors—including manufacturing, 
-                telecommunications, healthcare, energy, retail, and real estate—we represent distressed 
-                companies, advise creditors on recovery strategies, and support investors in capitalizing 
-                on restructuring opportunities. Our approach combines deep local insights with global best
-                 practices to ensure that every restructuring engagement is strategically tailored, 
-                 cost-effective, and positioned for long-term success.
-
-
-                </p>
-
-                <p className="text-gray-700 leading-relaxed text-justify ">
-
-                Drawing on the collective expertise of over 50 dedicated professionals across our
-                 nationwide offices, we manage every facet of the restructuring process—whether through
-                  judicial insolvency proceedings, out-of-court negotiations, or innovative financial 
-                  turnarounds. This holistic approach ensures that our clients are well-prepared to address
-                   challenges at every stage and secure outcomes that protect and enhance their market positions.
-
-
-                </p>
+<p className="text-gray-700 leading-relaxed text-justify">
+  Drawing on the collective expertise of over 50 dedicated professionals across our
+  nationwide offices, we manage every facet of the restructuring process&mdash;whether through
+  judicial insolvency proceedings, out-of-court negotiations, or innovative financial 
+  turnarounds. This holistic approach ensures that our clients are well-prepared to address
+  challenges at every stage and secure outcomes that protect and enhance their market positions.
+</p>
             </div>
           </div>
         </div>

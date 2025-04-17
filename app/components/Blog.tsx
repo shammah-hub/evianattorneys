@@ -12,7 +12,7 @@ export default function Blog() {
       </div>
       
       <h1 className="text-xl md:text-2xl font-bold mb-3 md:mb-4">
-        Ex-gov Lamido rejects El-Rufai's call to join SDP
+        Ex-gov Lamido rejects El-Rufai&apos;s call to join SDP
       </h1>
       
       <p className="text-gray-700 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
@@ -25,33 +25,33 @@ export default function Blog() {
 
       <p className="text-gray-700 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
         Responding in a separate BBC Hausa interview on Sunday, Lamido dismissed the invitation as an insult, 
-        insisting that the PDP, which he helped build, laid the foundation for El-Rufai's political career. 
-        "The party we formed, the PDP, is the one that gave birth to El-Rufai.     
+        insisting that the PDP, which he helped build, laid the foundation for El-Rufai&apos;s political career. 
+        &quot;The party we formed, the PDP, is the one that gave birth to El-Rufai.     
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
-        "You're not enough to make us leave the PDP," Lamido said. 
-        He added, "He once said that there are no adults in Nigeria in politics, 
-        but now he is calling on us to join him in the SDP." 
-        The former governor also questioned El-Rufai's motives for defecting from the APC to the SDP.      
+      &quot;You&apos;re not enough to make us leave the PDP,&quot; Lamido said. 
+        He added, &quot;He once said that there are no adults in Nigeria in politics, 
+        but now he is calling on us to join him in the SDP.&quot; 
+        The former governor also questioned El-Rufai&apos;s motives for defecting from the APC to the SDP.      
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
-        "He said he told President Buhari about his decision to leave the APC,
-        but now he is saying that he is one of the adults in Nigerian politics," 
+      &quot;He said he told President Buhari about his decision to leave the APC,
+        but now he is saying that he is one of the adults in Nigerian politics,&quot; 
         Lamido stated. The former governor argued that the PDP had not done anything to warrant his defection, 
-        emphasizing his long-standing loyalty. "If I was going to leave the PDP, 
-        I would have done so in 2014 when the APC was formed," he said. 
-        The former governor also criticised El-Rufai's leadership style,
+        emphasizing his long-standing loyalty. &quot;If I was going to leave the PDP, 
+        I would have done so in 2014 when the APC was formed,&quot; he said. 
+        The former governor also criticised El-Rufai&apos;s leadership style,
         saying that leadership is not about anger or selfish ambition.      
       </p>
       
       <p className="text-gray-700 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
-        "Leadership is done with patience and vision,
-        and doing things for the peace of the followers and the country as a whole," Lamido said.
+      &quot;Leadership is done with patience and vision,
+        and doing things for the peace of the followers and the country as a whole,&quot; Lamido said.
         Lamido advised El-Rufai to put patriotism first instead of showing anger towards others, saying,
-        "What should be done is to put patriotism first, instead of showing anger towards someone."
-        He added, "The PDP has been working to rebuild its strength after losing the 2015 presidential election."
+        &quot;What should be done is to put patriotism first, instead of showing anger towards someone.&quot;
+        He added, &quot;The PDP has been working to rebuild its strength after losing the 2015 presidential election.&quot;
       </p>
       
       <p className="text-right text-orange-500 italic cursor-pointer text-sm md:text-base">Read more</p>

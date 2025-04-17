@@ -1,12 +1,12 @@
 "use client"
-import React from 'react'
+import React, { useState } from 'react'
 
-function page() {
+function Page() {
 
-  const [searchTerm, setSearchTerm] = React.useState('');
-  const [professional, setProfessional] = React.useState('');
-  const [type, setType] = React.useState('');
-  const [practice, setPractice] = React.useState('');
+  const [searchTerm, setSearchTerm] = useState('');
+  const [professional, setProfessional] = useState('');
+  const [type, setType] = useState('');
+  const [practice, setPractice] = useState('');
 
   return (
     <>
@@ -99,4 +99,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

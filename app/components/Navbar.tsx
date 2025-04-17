@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { BsArrowRight } from "react-icons/bs";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
@@ -32,7 +33,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img
+            <Image
+            width={100}
+            height={100}
               src="/logo.svg"
               alt="Evian & Co Attorneys"
               className="h-8 md:h-10 w-auto"

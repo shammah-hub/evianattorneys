@@ -8,7 +8,7 @@ interface TabContent {
   [key: string]: string;
 }
 
-export default function page() {
+export default function Page() {
   // State to track which tab is active, null means showing the default overview
   const [activeTab, setActiveTab] = useState<string | null>(null);
 

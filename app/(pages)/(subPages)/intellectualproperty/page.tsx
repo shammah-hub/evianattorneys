@@ -132,48 +132,39 @@ function page() {
               <div>
                 <h4 className="font-bold mb-2 md:mb-3">Evian & Co.: Redefining Intellectual Property Excellence
                 </h4>
-                <p className="text-gray-700 leading-relaxed text-justify ">
-
-                At Evian & Co., our intellectual property practice is built on the foundation of 
-                safeguarding ideas, technologies, products, and brands with unparalleled precision. 
-                We empower a diverse global clientele—from industry titans and Fortune 100 companies to 
-                visionary startups—by transforming complex IP challenges into strategic opportunities.
-
-                </p>
+                <p className="text-gray-700 leading-relaxed text-justify">
+  At Evian &amp; Co., our intellectual property practice is built on the foundation of 
+  safeguarding ideas, technologies, products, and brands with unparalleled precision. 
+  We empower a diverse global clientele&mdash;from industry titans and Fortune 100 companies to 
+  visionary startups&mdash;by transforming complex IP challenges into strategic opportunities.
+</p>
               </div>
               
               
-              <p className="text-gray-700 leading-relaxed text-justify ">
+              <p className="text-gray-700 leading-relaxed text-justify">
+  Our team of seasoned litigators and transactional experts leverages decades of experience to 
+  secure extraordinary outcomes in high-stakes disputes. Whether addressing patent, copyright, 
+  trademark, trade secret misappropriation, or advertising conflicts, we excel in &ldquo;bet-the-company&rdquo; 
+  cases across all major forums. From State and Federal High Courts to specialized panels such as the 
+  Patent Trial and Appeal Board and Trademark Trial and Appeal Board, our extensive experience ensures 
+  that your intellectual property is vigorously defended.
+</p>
+<p className="text-gray-700 leading-relaxed text-justify">
+  Complementing our litigation prowess, twenty dedicated attorneys specialize in negotiating,
+  structuring, and closing intricate transactions driven by innovation. Our expertise spans 
+  joint ventures, strategic alliances, licensing, outsourcing, and bespoke commercial
+  agreements&mdash;crafted with a deep understanding of the unique dynamics that govern each
+  business relationship.
+</p>
 
-                Our team of seasoned litigators and transactional experts leverages decades of experience to 
-                secure extraordinary outcomes in high-stakes disputes. Whether addressing patent, copyright, 
-                trademark, trade secret misappropriation, or advertising conflicts, we excel in "bet-the-company" 
-                cases across all major forums. From State and Federal High Courts to specialized panels such as the 
-                Patent Trial and Appeal Board and Trademark Trial and Appeal Board, our extensive experience ensures 
-                that your intellectual property is vigorously defended.
-
-                </p>
-
-                <p className="text-gray-700 leading-relaxed text-justify ">
-
-                 Complementing our litigation prowess, twenty dedicated attorneys specialize in negotiating,
-                 structuring, and closing intricate transactions driven by innovation. Our expertise spans 
-                 joint ventures, strategic alliances, licensing, outsourcing, and bespoke commercial
-                agreements—crafted with a deep understanding of the unique dynamics that govern each
-                 business relationship.
-
-                </p>
-
-                <p className="text-gray-700 leading-relaxed text-justify ">
-
-                Unified by a cross-Atlantic presence and seamless office integration, 
-                we coordinate multi-jurisdictional litigation and complex transactions with strategic 
-                foresight and market intelligence that is unmatched in the industry. 
-                At Evian & Co. Attorneys, we don't just protect intellectual property—we empower our 
-                clients to fortify their market positions and drive transformative growth in an 
-                ever-evolving global landscape.
-
-                </p>
+<p className="text-gray-700 leading-relaxed text-justify">
+  Unified by a cross-Atlantic presence and seamless office integration, 
+  we coordinate multi-jurisdictional litigation and complex transactions with strategic 
+  foresight and market intelligence that is unmatched in the industry. 
+  At Evian &amp; Co. Attorneys, we don&apos;t just protect intellectual property&mdash;we empower our 
+  clients to fortify their market positions and drive transformative growth in an 
+  ever-evolving global landscape.
+</p>
             </div>
           </div>
         </div>

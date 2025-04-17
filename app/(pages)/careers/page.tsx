@@ -1,14 +1,13 @@
 "use client"
 
 import { useState } from 'react'
-import { CiVideoOn } from "react-icons/ci";
 
 // Define tab content type
 interface TabContent {
   [key: string]: string;
 }
 
-export default function page() {
+export default function Page() {
   // State to track which tab is active, default to 'Overview' instead of null
   const [activeTab, setActiveTab] = useState<string>('Overview');
 

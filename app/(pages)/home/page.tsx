@@ -1,19 +1,17 @@
 "use client"
+
 import Link from "next/link";
 import React from "react";
-import { useState } from "react";
 import { GoArrowRight } from "react-icons/go";
 import Testimonials from "@/app/components/Testimonials";
 import Blog from "@/app/components/Blog";
+import Image from "next/image";
 
 
 
 function Page() {
-  const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleFAQ = (index: any) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+  
 
   const services = [
     { text: "Intellectual Property", path: "/intellectualproperty" },
@@ -34,7 +32,7 @@ function Page() {
     <p className="text-sm md:text-base lg:text-lg">
     Where integrity meets innovation: crafting transformative legal strategies that<br/>
      redefine excellence. At Evian & Co., we focus on ideas and solutions <br/>
-     not gossip or circumstance. We don't just discuss your problems; <br/>
+     not gossip or circumstance. We don&apos;t just discuss your problems; <br/>
      we solve them with intellectual rigor and unwavering commitment to results.
     </p>
     <button className="flex items-center border py-2 px-4 rounded-full gap-3 text-sm md:text-base hover:bg-white/10 transition-colors">
@@ -67,7 +65,7 @@ function Page() {
       Bespoke legal Solutions, <span className="font-serif italic"> crafted exclusively for you.</span> 
       </h3>
       <p className="text-sm md:text-base">
-      At Evian & Co. Attorneys, we understand that legal challenges aren't one-size-fits-all.
+      At Evian & Co. Attorneys, we understand that legal challenges aren&apos;t one-size-fits-all.
        Your situation is unique, and so are your needs. Our approach combines decades of legal
         expertise with a personalized methodology that places your specific circumstances at 
         the center of our strategy.
@@ -76,14 +74,14 @@ function Page() {
       <p>
       Our team of seasoned attorneys carefully analyzes every aspect of your case, 
       identifying nuanced opportunities that generalized approaches might miss. 
-      We don't just apply the law—we shape it to work for your particular situation, 
+      We don&apos;t just apply the law—we shape it to work for your particular situation, 
       developing customized strategies that address your immediate concerns while
        safeguarding your long-term interests.
 
       </p>
       <p>
-      Whether you're facing complex litigation, navigating corporate compliance, 
-      or planning for your family's future, our commitment remains consistent: delivering
+      Whether you&apos;re facing complex litigation, navigating corporate compliance, 
+      or planning for your family&apos;s future, our commitment remains consistent: delivering
        exceptional legal representation precisely calibrated to your goals. We measure our 
        success not by billable hours but by the outcomes we achieve for our clients.
       </p>
@@ -96,11 +94,14 @@ function Page() {
   
   {/* Right Image */}
   <div className="w-full md:w-[40%] lg:w-[50%] xl:w-[700px] bg-[#EFA657]">
-    <img 
-      src="/enw.svg" 
-      alt="Man" 
-      className="w-full h-auto object-cover" 
-    />
+  <Image 
+  src="/enw.svg"
+  alt="Man"
+  width={200}
+  height={200}
+  className="object-cover"
+  priority // optional: for above-the-fold images
+/>
   </div>
 </section>
 
@@ -111,7 +112,13 @@ function Page() {
       <section className="py-12 md:py-30 flex flex-col md:flex-row gap-8 md:gap-50 justify-center items-center min-h-screen bg-[#fdefe0] px-4 md:px-0">
         {/* right side with pillar image */}
         <div className="mb-8 md:mb-0">
-          <img src="/plr.svg" alt="pillar" className="h-auto w-auto max-w-full" />
+          <Image
+          width={200}
+          height={200}
+           src="/plr.svg" 
+           alt="pillar"
+           className="h-auto w-auto max-w-full" 
+           />
         </div>
 
         {/* right side texts*/}
@@ -130,7 +137,7 @@ function Page() {
             <h5 className="text-2xl md:text-[32px]">
               Strategic <span className="font-serif italic font-thin">Dominance</span>
             </h5>
-            <p>We don't follow trends—we set them</p>
+            <p>We don&apos;t follow trends—we set them</p>
           </div>
           <div className="p-6 md:p-12 border-b">
             <h5 className="text-2xl md:text-[32px]">

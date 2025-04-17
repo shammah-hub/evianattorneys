@@ -94,30 +94,30 @@ function page() {
             <div className="md:col-span-8">
               <div className="space-y-6 md:space-y-8">
                 <div>
-                  <h4 className="font-bold mb-3">
-                    Evian & Co.: Shaping Nigeria's Corporate Transactions
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed text-justify">
-                    At Evian & Co., our transactional law practice is at the forefront of shaping Nigeria's 
-                    commercial landscape. Our seasoned corporate lawyers bring deep local insights and a proven track 
-                    record to every deal, addressing the complexities 
-                    of high-stakes transactions in today's dynamic global market.
-                  </p>
-                </div>
-                
-                <p className="text-gray-700 leading-relaxed text-justify">
-                  By integrating innovative legal strategies with a comprehensive understanding of the Nigerian regulatory 
-                  environment, we craft tailored solutions that not only meet but also exceed our clients' 
-                  business objectives. Our collaborative approach unites specialized expertise across diverse 
-                  sectors to ensure that every transaction—whether it involves cross-border investments, 
-                  complex financing, or strategic mergers—delivers maximum value and sustainable growth.
-                </p>
+                <h4 className="font-bold mb-3">
+  Evian &amp; Co.: Shaping Nigeria&apos;s Corporate Transactions
+</h4>
+<p className="text-gray-700 leading-relaxed text-justify">
+  At Evian &amp; Co., our transactional law practice is at the forefront of shaping Nigeria&apos;s 
+  commercial landscape. Our seasoned corporate lawyers bring deep local insights and a proven track 
+  record to every deal, addressing the complexities 
+  of high-stakes transactions in today&apos;s dynamic global market.
+</p>
+</div>
 
-                <p className="text-gray-700 leading-relaxed text-justify">
-                  This comprehensive approach ensures that Evian & Co. remains the trusted partner for
-                  transactional law in Nigeria, delivering innovative and effective solutions that drive business
-                  success in a rapidly evolving marketplace.
-                </p>
+<p className="text-gray-700 leading-relaxed text-justify">
+  By integrating innovative legal strategies with a comprehensive understanding of the Nigerian regulatory 
+  environment, we craft tailored solutions that not only meet but also exceed our clients&apos; 
+  business objectives. Our collaborative approach unites specialized expertise across diverse 
+  sectors to ensure that every transaction&mdash;whether it involves cross-border investments, 
+  complex financing, or strategic mergers&mdash;delivers maximum value and sustainable growth.
+</p>
+
+<p className="text-gray-700 leading-relaxed text-justify">
+  This comprehensive approach ensures that Evian &amp; Co. remains the trusted partner for
+  transactional law in Nigeria, delivering innovative and effective solutions that drive business
+  success in a rapidly evolving marketplace.
+</p>
               </div>
             </div>
           </div>
