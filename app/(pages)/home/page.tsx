@@ -57,53 +57,50 @@ function Page() {
 </section>
 
 {/* expert legal solutions */}
-<section className="flex flex-col md:flex-row pl-24  mt-6 md:mt-0 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
+<section className="flex flex-col md:flex-row px-4 md:pl-24 py-8 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
   {/* Left Content */}
-  <div className="w-full md:max-w-[500px] space-y-8 md:space-y-12 mb-8 md:mb-0">
+  <div className="w-full md:max-w-[500px] space-y-6 md:space-y-12 mb-8 md:mb-0">
     <div className="space-y-4">
       <h3 className="text-2xl md:text-4xl lg:text-[40px] font-bold">
-      Bespoke legal Solutions, <span className="font-serif italic"> crafted exclusively for you.</span> 
+        Bespoke legal Solutions, <span className="font-serif italic">crafted exclusively for you.</span>
       </h3>
       <p className="text-sm md:text-base">
-      At Evian & Co. Attorneys, we understand that legal challenges aren&apos;t one-size-fits-all.
-       Your situation is unique, and so are your needs. Our approach combines decades of legal
-        expertise with a personalized methodology that places your specific circumstances at 
+        At Evian & Co. Attorneys, we understand that legal challenges aren&apos;t one-size-fits-all.
+        Your situation is unique, and so are your needs. Our approach combines decades of legal 
+        expertise with a personalized methodology that places your specific circumstances at
         the center of our strategy.
-
       </p>
-      <p>
-      Our team of seasoned attorneys carefully analyzes every aspect of your case, 
-      identifying nuanced opportunities that generalized approaches might miss. 
-      We don&apos;t just apply the law—we shape it to work for your particular situation, 
-      developing customized strategies that address your immediate concerns while
-       safeguarding your long-term interests.
-
+      <p className="text-sm md:text-base">
+        Our team of seasoned attorneys carefully analyzes every aspect of your case,
+        identifying nuanced opportunities that generalized approaches might miss.
+        We don&apos;t just apply the law—we shape it to work for your particular situation,
+        developing customized strategies that address your immediate concerns while
+        safeguarding your long-term interests.
       </p>
-      <p>
-      Whether you&apos;re facing complex litigation, navigating corporate compliance, 
-      or planning for your family&apos;s future, our commitment remains consistent: delivering
-       exceptional legal representation precisely calibrated to your goals. We measure our 
-       success not by billable hours but by the outcomes we achieve for our clients.
+      <p className="text-sm md:text-base">
+        Whether you&apos;re facing complex litigation, navigating corporate compliance,
+        or planning for your family&apos;s future, our commitment remains consistent: delivering
+        exceptional legal representation precisely calibrated to your goals. We measure our 
+        success not by billable hours but by the outcomes we achieve for our clients.
       </p>
     </div>
-    
+      
     <button className="flex items-center text-[#EFA657] border border-[#EFA657] py-2 px-4 rounded-full gap-3 text-sm md:text-base hover:bg-[#EFA657]/10 transition-colors">
       Contact Us <GoArrowRight />
     </button>
   </div>
   
   {/* Right Image */}
-  <div className="w-full md:w-[40%] lg:w-[50%] xl:w-[800px] bg-[#EFA657]">
-  <Image 
-    width={200}
-    height={200}
-      src="/enw.svg" 
-      alt="Man" 
-      className="w-full h-auto object-cover" 
-    /> 
+  <div className="w-full md:w-[40%] lg:w-[50%] xl:w-[600px] bg-[#EFA657]">
+    <Image
+      width={200}
+      height={200}
+      src="/enw.svg"
+      alt="Man"
+      className="w-full h-auto object-cover"
+    />
   </div>
 </section>
-
 
 
 {/* pillar section */}
