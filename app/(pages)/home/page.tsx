@@ -57,7 +57,7 @@ function Page() {
 </section>
 
 {/* expert legal solutions */}
-<section className="flex flex-col md:flex-row px-4 md:pl-24 py-8 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
+<section className="flex flex-col md:flex-row md:pl-48 text-white bg-[#182492] bg-cover bg-center justify-between items-center w-full">
   {/* Left Content */}
   <div className="w-full md:max-w-[500px] space-y-6 md:space-y-12 mb-8 md:mb-0">
     <div className="space-y-4">

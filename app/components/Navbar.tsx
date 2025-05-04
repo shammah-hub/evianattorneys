@@ -45,7 +45,7 @@ export default function Navbar() {
           {/* Get Started Button and Menu Button */}
           <div className="flex gap-2 md:gap-10 items-center">
             <Link
-              href="/start-project"
+              href="/professionals"
               className="hidden sm:flex items-center bg-[#182492] text-white px-3 py-1 md:px-4 md:py-2 rounded-3xl hover:bg-blue-700 transition-colors text-sm md:text-base"
             >
               Get Started
