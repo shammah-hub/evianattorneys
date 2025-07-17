@@ -24,7 +24,7 @@ function page() {
          <h2 className="text-xl font-bold mb-3">1. About us</h2>
           <p className="mb-4 text-justify">
             Here at Evian Attorneys & Co., we are committed to safeguarding the privacy of the confidential and 
-            "Personal Information" (information that directly or indirectly identifies individuals who may be clients, 
+            &quot;Personal Information&quot; (information that directly or indirectly identifies individuals who may be clients, 
             staff, agents, lawyers, law students, job applicants or others inside or outside the firm) that is provided to 
             us or collected by us during our business.
           </p>
@@ -58,15 +58,15 @@ function page() {
             experience.
           </p>
           <p className="mb-4 text-justify">
-            We use a third-party service provider to manage the firm's contact database and deliver emails to 
+            We use a third-party service provider to manage the firm&apos;s contact database and deliver emails to 
             inform you about our services, legal developments and updates and invite you to Evian Attorneys & Co. 
             events (including those we may jointly host with other organizations).
           </p>
           <p className="mb-4 text-justify">
             You can control the information you receive through our direct marketing function by using the 
-            "Managing your preferences" option at the bottom of the emails. If you no longer wish to receive 
+            &quot;Managing your preferences&quot; option at the bottom of the emails. If you no longer wish to receive 
             marketing emails relating to our services by email or post, you can unsubscribe at any time by using the 
-            "Unsubscribe" option on the email footer or by contacting info@evian-attorneys.com
+            &quot;Unsubscribe&quot; option on the email footer or by contacting info@evian-attorneys.com
           </p>
 
           <h3 className="text-lg font-semibold mb-2">2.3 Recruitment</h3>
@@ -106,7 +106,7 @@ function page() {
             <li>you have given your consent (where necessary) to such use, or the organization you work for has 
             obtained your consent (where necessary) to share your information with us; or</li>
             <li>if we (or a third party) have a legitimate interest which is not overridden by your interests or your rights 
-            and freedoms. Such legitimate interests include the provision of legal services, running the firm's 
+            and freedoms. Such legitimate interests include the provision of legal services, running the firm&apos;s 
             business and marketing relevant services directly to you.</li>
           </ul>
           
@@ -116,7 +116,7 @@ function page() {
             <li>comply with our legal obligations to identify and verify the identity of our clients and their beneficial 
             owners;</li>
             <li>provide legal services to you and/or the organization you work for if you are a client;</li>
-            <li>run the firm's business (e.g. carry out administrative or operational processes, including recruitment);</li>
+            <li>run the firm&apos;s business (e.g. carry out administrative or operational processes, including recruitment);</li>
             <li>maintain and develop our business relationships with you;</li>
             <li>improve our services and products to you, if you or the organization you work for are a client or 
             prospective client;</li>
@@ -130,9 +130,9 @@ function page() {
             We will only retain your personal information for as long as is necessary for the purpose for which it was 
             collected, including for the purposes of complying with any legal, regulatory, accounting or reporting 
             requirements. Personal information obtained for the purposes of business development, client relations 
-            and/or providing legal services will be retained in accordance with the firm's Retention and destruction 
-            policy unless we agree otherwise with you in writing. If you wish to know more about the firm's 
-            Retention and destruction policy for any of the firm's different retention periods, please contact 
+            and/or providing legal services will be retained in accordance with the firm&apos;s Retention and destruction 
+            policy unless we agree otherwise with you in writing. If you wish to know more about the firm&apos;s 
+            Retention and destruction policy for any of the firm&apos;s different retention periods, please contact 
             info@evian-attorneys.com
           </p>
         </div>

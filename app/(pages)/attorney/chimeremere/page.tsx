@@ -45,15 +45,25 @@ function page() {
         
         <div className="space-y-4 text-black">
           <p className="text-sm md:text-base leading-relaxed text-justify">
-            Chime is a distinguished and highly motivated legal practitioner whose expertise in corporate governance & compliance has established him as an exceptional talent within the firm. Renowned for his incisive analytical abilities and intuitive understanding of complex legal and commercial matters, Chime consistently delivers insightful and pragmatic solutions, making him an invaluable asset to the team.
+            Chime is a distinguished and highly motivated legal practitioner whose expertise in corporate governance & 
+            compliance has established him as an exceptional talent within the firm. Renowned for his incisive analytical 
+            abilities and intuitive understanding of complex legal and commercial matters, Chime consistently delivers insightful 
+            and pragmatic solutions, making him an invaluable asset to the team.
           </p>
           
           <p className="text-sm md:text-base leading-relaxed text-justify">
-            Chime's practice focuses on the intricate domains of Corporate Governance & Compliance, where he demonstrates an exceptional ability to navigate complex, multifaceted legal frameworks and transactional landscapes. His keen intellect and meticulous attention to detail enable him to craft strategies that align with clients' strategic objectives while maintaining the highest standards of legal excellence.
+            Chime&apos;s practice focuses on the intricate domains of Corporate Governance & Compliance, where he demonstrates an 
+            exceptional ability to navigate complex, multifaceted legal frameworks and transactional landscapes. 
+            His keen intellect and meticulous attention to detail enable him to craft strategies that align with clients&apos;
+             strategic objectives while maintaining the highest standards of legal excellence.
           </p>
           
           <p className="text-sm md:text-base leading-relaxed text-justify">
-            Beyond his professional accomplishments, Chime is a dedicated lifelong learner, committed to continuously expanding his knowledge base and staying abreast of developments in the legal field. Chime's diverse intellectual pursuits drive him to explore diverse areas of interest, and he actively pursues spontaneous hobbies that enrich his perspective and enhance his ability to think creatively. This blend of discipline and adaptability underscores his approach to law as both a professional and personal endeavor.
+            Beyond his professional accomplishments, Chime is a dedicated lifelong learner, 
+            committed to continuously expanding his knowledge base and staying abreast of developments 
+            in the legal field. Chime&apos;s diverse intellectual pursuits drive him to explore diverse areas of interest, 
+            and he actively pursues spontaneous hobbies that enrich his perspective and enhance his ability to think creatively.
+             This blend of discipline and adaptability underscores his approach to law as both a professional and personal endeavor.
           </p>
           
           <div className="mt-6">

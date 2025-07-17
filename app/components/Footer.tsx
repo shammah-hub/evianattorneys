@@ -2,13 +2,6 @@
 import React from 'react'
 import Image from 'next/image';
 
-const services = [
-  { text: "Intellectual Property", path: "/intellectualproperty" },
-  { text: "Litigation", path: "/litigation" },
-  { text: "Restructuring", path: "/restructuring" },
-  { text: "Energy", path: "/energy" },
-  { text: "Transactional", path: "/transactional" },
-];
 
 function Footer() {
   return (

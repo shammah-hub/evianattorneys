@@ -46,9 +46,10 @@ function page() {
               <div className="space-y-4 text-black">
                 <p className="text-sm md:text-base leading-relaxed text-justify">
                 Sylvester Ewaensiha Okungbowa is the Founding Managing Partner of Evian & Co., 
-                leading the firm's Transactional Practice Team since its establishment in 2024. His founding of the 
+                leading the firm&apos;s Transactional Practice Team since its establishment in 2024. His founding of the 
                 firm represents the culmination of an illustrious legal career marked by exceptional expertise in complex 
-                commercial transactions and corporate advisory services.                </p>
+                commercial transactions and corporate advisory services.              
+                  </p>
                 
                 <p className="text-sm md:text-base leading-relaxed text-justify">
                    Prior to being the founding partner, he served as Chief Executive Officer and Chairman of Chopwell

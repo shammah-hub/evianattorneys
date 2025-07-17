@@ -12,7 +12,6 @@ import { IoClose } from "react-icons/io5";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const isHomePage = pathname === "/";
 
   const navLinks = [
     { name: "Home", path: "/" },

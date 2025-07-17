@@ -46,7 +46,7 @@ function page() {
               <div className="space-y-4 text-black">
                 <p className="text-sm md:text-base leading-relaxed text-justify">
                   Sandra is a versatile legal practitioner, Associate at Evian & Co and a graduate of 
-                  the University of Dundee. Sandra's professional journey is marked by a 
+                  the University of Dundee. Sandra&apos;s professional journey is marked by a 
                   strong commitment to advancing sustainable energy solutions and 
                   innovative legal frameworks.
                 </p>

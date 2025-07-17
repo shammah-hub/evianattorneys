@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image';
+
 import { GoArrowRight } from "react-icons/go";
 
 
@@ -40,8 +42,13 @@ function page() {
       <Link href="/intellectualproperty" className="block">
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
           <div className="mb-6 flex justify-center">
-            <img src="/Vector0.svg" alt="Intellectual Property" className="w-16 h-16 text-blue-600" />
-          </div>
+            <Image 
+              src="/Vector0.svg" 
+              alt="Intellectual Property" 
+              width={64} 
+              height={64} 
+              className="text-blue-600" 
+            />          </div>
           <h3 className="text-xl font-bold text-gray-900 mb-4">Intellectual Property</h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Protecting innovation and creativity through strategic IP counseling and enforcement
@@ -56,8 +63,13 @@ function page() {
       <Link href="/litigation" className="block">
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
           <div className="mb-6 flex justify-center">
-            <img src="/Vector2.svg" alt="Litigation" className="w-16 h-16 text-blue-600" />
-          </div>
+            <Image 
+              src="/Vector2.svg" 
+              alt="Intellectual Property" 
+              width={64} 
+              height={64} 
+              className="text-blue-600" 
+            />           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-4">Litigation</h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Resolving complex disputes through strategic advocacy in courts and arbitration.
@@ -72,8 +84,13 @@ function page() {
       <Link href="/restructuring" className="block">
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
           <div className="mb-6 flex justify-center">
-            <img src="/Vector3.svg" alt="Restructuring" className="w-16 h-16 text-blue-600" />
-          </div>
+            <Image 
+              src="/Vector3.svg" 
+              alt="Intellectual Property" 
+              width={64} 
+              height={64} 
+              className="text-blue-600" 
+            />           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-4">Restructuring</h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Guiding clients through financial and operational turnarounds with tailored legal solutions.
@@ -88,8 +105,13 @@ function page() {
       <Link href="/energy" className="block">
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
           <div className="mb-6 flex justify-center">
-            <img src="/Vector4.svg" alt="Energy" className="w-16 h-16 text-blue-600" />
-          </div>
+            <Image 
+              src="/Vector4.svg" 
+              alt="Intellectual Property" 
+              width={64} 
+              height={64} 
+              className="text-blue-600" 
+            />           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-4">Energy</h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Advising on regulatory, transactional, and project development across the energy sector.
@@ -104,8 +126,13 @@ function page() {
       <Link href="/transactional" className="block">
         <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
           <div className="mb-6 flex justify-center">
-            <img src="/Vector5.svg" alt="Transactional" className="w-16 h-16 text-blue-600" />
-          </div>
+            <Image 
+              src="/Vector5.svg" 
+              alt="Intellectual Property" 
+              width={64} 
+              height={64} 
+              className="text-blue-600" 
+            />           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-4">Transactional</h3>
           <p className="text-gray-600 text-sm leading-relaxed mb-6">
             Guiding clients through deals with precise structuring and negotiation.

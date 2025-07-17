@@ -47,7 +47,7 @@ function page() {
           <p className="text-sm md:text-base leading-relaxed text-justify">
             Ogheneghare is a distinguished lawyer and Senior Associate in the Energy & 
             Natural Resources Practice Group, where he leverages his extensive legal expertise 
-            to advise financial institutions and corporate entities. Based in the firm's 
+            to advise financial institutions and corporate entities. Based in the firm&apos;s 
             Abuja office, he liaises with regulatory agencies on behalf of clients, ensuring 
             compliance and facilitating seamless transactions.
           </p>
