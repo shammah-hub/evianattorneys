@@ -89,7 +89,7 @@ export default function page() {
         <div className="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-12 xl:gap-16 max-w-7xl mx-auto">
           {/* Right Content */}
           <div className="w-full lg:w-1/2 space-y-4 sm:space-y-6">
-            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-justify font-bold leading-tight">
+            <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl  font-bold leading-tight">
               To be the trusted legal partners of choice for forward-thinking
               businesses, today and into the future.
             </h3>
@@ -111,7 +111,7 @@ export default function page() {
               <Image
                 width={600}
                 height={400}
-                src="/Rec.svg"
+                src="/pp.svg"
                 alt="Mission illustration"
                 className="w-full h-auto object-cover"
               />
