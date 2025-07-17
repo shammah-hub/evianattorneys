@@ -3,10 +3,10 @@ import Link from 'next/link'
 import { GoArrowRight } from "react-icons/go";
 
 
-function Page() {
+function page() {
   return (
     <>
-      <section className="flex bg-[url('/law.svg')] bg-cover bg-no-repeat bg-[#ffff] bg-center min-h-screen items-center">
+     <section className="flex bg-[url('/practiseimg.svg')] bg-cover bg-no-repeat bg-[#ffff] bg-center min-h-screen items-center">
         {/* Left Content */}
         <div className="text-white p-4 md:p-12 lg:p-24 space-y-3 md:space-y-5 max-w-full">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
@@ -20,29 +20,17 @@ function Page() {
         </div>
       </section>
 
+       <section className="mx-auto p-4 md:p-8 lg:p-20 bg-[#ffff]">
+      <h3 className='text-4xl font-bold text-center text-black'>Who We Are</h3>
+      
+      <p className="text-black py-10 leading-relaxed mb-3 md:mb-4 text-left md:text-justify text-sm md:text-base">
+        At Evian & Co. Attorney, we provide clear, strategic legal guidance tailored to your needs. Whether you&apos;re facing a legal dispute, planning for the future, or managing a business, our experienced team is here to protect your interests and help you move forward with confidence.
+        Explore our services to see how we can support you.
+      </p>
 
-    <section className="max-w-7xl mx-auto p-12 bg-white">
-      <div className="mb-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-6">Restructuring</h2>
-        
-        <div className="relative mb-6">
-        <div className="relative h-64 bg-[url('/ret.svg')] bg-cover bg-no-repeat flex items-center justify-center">
-          
-        </div>
-        </div>
-        
-        <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
-            In the dynamic business environment of Nigeria, our market-leading Restructuring practice provides critical support 
-            to companies facing financial distress or operational challenges. We assist clients in navigating insolvency 
-            proceedings, either domestic or cross-border debt restructuring, and corporate reorganizations. Our attorneys work 
-            closely with clients to develop strategies that preserve value, ensure compliance with legal requirements, 
-            and position businesses for future success. Whether facing financial distress or seeking to optimize operations,
-            our clients rely on us to guide them through complex restructuring processes with confidence
-          </p>
-        </div>
-      </div>
+       
     </section>
+
 
     <section className="py-16 bg-white text-black">
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -131,8 +119,9 @@ function Page() {
     </div>
   </div>
 </section>
+      
     </>
   )
 }
 
-export default Page
+export default page

@@ -1,150 +1,134 @@
 import React from 'react'
+import Link from 'next/link'
+import { GoArrowRight } from "react-icons/go";
 
-const leftColumnPractices = [
-  {
-    title: "Commercial Litigation",
-    link: "/litigation/commercial"
-  },
-  {
-    title: "Civil Litigation",
-    link: "/litigation/civil"
-  },
-  {
-    title: "Criminal Litigation",
-    link: "/litigation/criminal"
-  },
-  {
-    title: "Constitutional Litigation",
-    link: "/litigation/constitutional"
-  },
-  {
-    title: "Labour and Employment Litigation",
-    link: "/litigation/labour-employment"
-  },
-  {
-    title: "Family and Matrimonial Litigation",
-    link: "/litigation/family-matrimonial"
-  },
-  {
-    title: "Real Estate and Property",
-    link: "/litigation/real-estate"
-  },
-  {
-    title: "Intellectual Property Litigation",
-    link: "/litigation/intellectual-property"
-  },
-  {
-    title: "Tax Litigation",
-    link: "/litigation/tax"
-  },
-  {
-    title: "Dispute Resolution and Arbitration",
-    link: "/litigation/dispute-resolution"
-  },
-  {
-    title: "Environmental Litigation",
-    link: "/litigation/environmental"
-  }
-];
 
 function Page() {
   return (
     <>
-      <section>
-        <div className="bg-[#fdefe0] px-4 py-8 sm:py-12 md:py-16 sm:px-6 lg:px-8">
-          <div className="mx-auto text-center">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif italic font-light text-gray-900 mb-4">
-              Litigation
-            </h1>
-            
-            <p className="text-base md:text-lg text-gray-600 mb-4 md:mb-8">
-              Find Related Professionals →
-            </p>
-          </div>
+      <section className="flex bg-[url('/law.svg')] bg-cover bg-no-repeat bg-[#ffff] bg-center min-h-screen items-center">
+        {/* Left Content */}
+        <div className="text-white p-4 md:p-12 lg:p-24 space-y-3 md:space-y-5 max-w-full">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+            Practise Areas 
+          </h1>
+          <p className="text-sm md:text-base lg:text-lg">
+          Experienced. Strategic. Committed to<br/>
+           Protecting Your Rights and Delivering Results
+          </p>
+          
         </div>
       </section>
 
-      <section className="py-12 md:py-20 px-4 md:px-8 lg:px-16 border-t">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16">
-            {/* Left column with title */}
-            <div className="md:col-span-3 mb-6 md:mb-0">
-              <h2 className="font-serif text-xl md:text-2xl">
-                <span className="font-serif italic">OVERVIEW</span>
-              </h2>
-            </div>
-            
-            {/* Right column with content */}
-            <div className="md:col-span-8">
-              <div className="space-y-6 md:space-y-8">
-                <div>
-                <h4 className="font-bold text-lg md:text-xl mb-3">
-                     Evian &amp; Co.: Redefining Litigation Excellence in Nigeria
-                </h4>
-                  <p className="text-gray-700 leading-relaxed text-justify">
-                    Evian &amp; Co., has been a pillar of litigation excellence in Nigeria. 
-                    Renowned for our expertise in complex litigation and arbitration, we consistently anticipate
-                    our clients&apos; needs and deliver outcomes that exceed expectations. Our commitment to 
-                    trial-readiness means that every case&mdash;whether contested in Nigeria&apos;s High Courts, 
-                    Courts of Appeal, or Supreme Court, or resolved through arbitration and specialized 
-                    tribunals&mdash;is pursued with meticulous preparation and strategic insight.
-                  </p>
 
-{/* Note: There's a closing </div> tag without a matching opening tag */}
+    <section className="max-w-7xl mx-auto p-12 bg-white">
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Litigation</h2>
+        
+        <div className="relative mb-6">
+        <div className="relative h-64 bg-[url('/legi.svg')] bg-cover bg-no-repeat flex items-center justify-center">
+          
+        </div>
+        </div>
+        
+        <div className="prose prose-gray max-w-none">
+          <p className="text-gray-700 leading-relaxed text-justify">
+           Our litigation practice is at the forefront of resolving complex legal disputes through litigation, arbitration, and 
+           alternative dispute resolution (ADR) mechanisms. It handles high-stakes commercial disputes, regulatory compliance
+           actions, and cross-border disputes. Evian & Co. Attorney&apos;s litigators are adept at managing cases in Nigerian courts,
+           international arbitration forums, and regulatory tribunals, ensuring robust representation, strategic planning, and meticulous preparation that aligns with clients’ objectives. The team also advises on risk mitigation strategies to prevent disputes before they escalate
+          </p>
+        </div>
+      </div>
+    </section>
 
-                 <p className="text-gray-700 leading-relaxed text-justify">
-                     With over 50 seasoned attorneys strategically located nationwide, we represent a diverse range of
-                     clients&mdash;from multinational corporations and government agencies to emerging enterprises&mdash;in 
-                       virtually every legal arena. Our litigation practice covers a comprehensive spectrum of matters.
-                    </p>
-
-                 <p className="text-gray-700 leading-relaxed text-justify">
-                   At Evian &amp; Co., we identify critical issues early to leverage every advantage, 
-                   ensuring cost-efficient and decisive resolutions. Our proven approach and deep understanding 
-                   of Nigeria&apos;s legal landscape empower our clients to navigate complex disputes with confidence 
-                    and secure outcomes that set industry benchmarks.
-                   </p>
-
-              </div>
-              </div>
-            </div>
+    <section className="py-16 bg-white text-black">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Intellectual Property */}
+      <Link href="/intellectualproperty" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector0.svg" alt="Intellectual Property" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Intellectual Property</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Protecting innovation and creativity through strategic IP counseling and enforcement
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
           </div>
         </div>
-      </section>
+      </Link>
 
-      <section className="bg-[#fdefe0] py-10 md:py-16 px-4 md:px-8 lg:px-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:gap-12 lg:gap-20">
-            <h2 className="font-bold text-lg mb-6 md:mb-0 uppercase tracking-wider">PRACTICES</h2>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8 md:gap-x-12 w-full">
-              <div className="space-y-4 md:space-y-6">
-                {leftColumnPractices.slice(0, Math.ceil(leftColumnPractices.length / 2)).map((practice, index) => (
-                  <a 
-                    href={practice.link}
-                    key={index} 
-                    className="block text-[#EFA657] hover:text-amber-700 transition-colors text-lg md:text-xl font-medium cursor-pointer"
-                  >
-                    {practice.title}
-                  </a>
-                ))}
-              </div>
-              
-              <div className="space-y-4 md:space-y-6">
-                {leftColumnPractices.slice(Math.ceil(leftColumnPractices.length / 2)).map((practice, index) => (
-                  <a 
-                    href={practice.link}
-                    key={index}
-                    className="block text-[#EFA657] hover:text-amber-700 transition-colors text-lg md:text-xl font-medium cursor-pointer"
-                  >
-                    {practice.title}
-                  </a>
-                ))}
-              </div>
-            </div>
+      {/* Litigation */}
+      <Link href="/litigation" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector2.svg" alt="Litigation" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Litigation</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Resolving complex disputes through strategic advocacy in courts and arbitration.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
           </div>
         </div>
-      </section>
+      </Link>
+
+      {/* Restructuring */}
+      <Link href="/restructuring" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector3.svg" alt="Restructuring" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Restructuring</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Guiding clients through financial and operational turnarounds with tailored legal solutions.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Energy */}
+      <Link href="/energy" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector4.svg" alt="Energy" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Energy</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Advising on regulatory, transactional, and project development across the energy sector.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Transactional */}
+      <Link href="/transactional" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector5.svg" alt="Transactional" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Transactional</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Guiding clients through deals with precise structuring and negotiation.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+      
+    </div>
+  </div>
+</section>
     </>
   )
 }

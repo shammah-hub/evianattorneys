@@ -1,156 +1,139 @@
 import React from 'react'
+import Link from 'next/link'
+import { GoArrowRight } from "react-icons/go";
 
-function page() {
-  const leftColumnPractices = [
-    {
-      title: "Antitrust & Competition",
-      link: "/nigeria/antitrust-competition"
-    },
-    {
-      title: "Banking & Financial Institutions",
-      link: "/nigeria/banking-financial-institutions"
-    },
-    {
-      title: "Capital Markets",
-      link: "/nigeria/capital-markets"
-    },
-    {
-      title: "Consumer & Retail Transactions",
-      link: "/nigeria/consumer-retail"
-    },
-    {
-      title: "Corporate Governance & Compliance",
-      link: "/nigeria/corporate-governance"
-    },
-    {
-      title: "Debt Finance & Structured Finance",
-      link: "/nigeria/debt-structured-finance"
-    },
-    {
-      title: "Mergers & Acquisitions",
-      link: "/nigeria/mergers-acquisitions"
-    },
-    {
-      title: "Private Equity & Venture Capital",
-      link: "/nigeria/private-equity"
-    },
-    {
-      title: "Real Estate & Infrastructure",
-      link: "/nigeria/real-estate-infrastructure"
-    },
-    {
-      title: "Energy & Infrastructure Transactions",
-      link: "/nigeria/energy-infrastructure"
-    },
-    {
-      title: "Technology & Intellectual Property Transactions",
-      link: "/nigeria/technology-ip"
-    },
-    {
-      title: "International Trade & Foreign Direct Investment",
-      link: "/nigeria/international-trade-fdi"
-    },
-    {
-      title: "Employment & Labor Transactions",
-      link: "/nigeria/employment-labor"
-    },
-    {
-      title: "Tax & Regulatory Solutions",
-      link: "/nigeria/tax-regulatory"
-    },
-    {
-      title: "Special Situations & Restructuring Transactions",
-      link: "/nigeria/special-situations-restructuring"
-    }
-  ];
 
+function Page() {
   return (
     <>
-      <section>
-        <div className="bg-[#fdefe0] px-4 py-8 sm:py-12 md:py-16 sm:px-6 lg:px-8">
-          <div className="mx-auto text-center">
-            <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-[128px] font-serif italic font-light text-gray-900 mb-4">
-              Transactional
-            </h1>
-            
-            <p className="text-base sm:text-lg text-gray-600 mb-8">
-              Find Related Professionals →
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 sm:py-16 md:py-20 lg:py-30 px-4 md:px-8 lg:px-16 border-t">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 lg:gap-30">
-            {/* Left column with title */}
-            <div className="md:col-span-3 mb-6 md:mb-0">
-              <h2 className="font-serif">
-                <span className="font-serif italic">OVERVIEW</span>
-              </h2>
-            </div>
-            
-            {/* Right column with content */}
-            <div className="md:col-span-8">
-              <div className="space-y-6 md:space-y-8">
-                <div>
-                <h4 className="font-bold mb-3">
-  Evian &amp; Co.: Shaping Nigeria&apos;s Corporate Transactions
-</h4>
-<p className="text-gray-700 leading-relaxed text-justify">
-  At Evian &amp; Co., our transactional law practice is at the forefront of shaping Nigeria&apos;s 
-  commercial landscape. Our seasoned corporate lawyers bring deep local insights and a proven track 
-  record to every deal, addressing the complexities 
-  of high-stakes transactions in today&apos;s dynamic global market.
-</p>
-</div>
-
-<p className="text-gray-700 leading-relaxed text-justify">
-  By integrating innovative legal strategies with a comprehensive understanding of the Nigerian regulatory 
-  environment, we craft tailored solutions that not only meet but also exceed our clients&apos; 
-  business objectives. Our collaborative approach unites specialized expertise across diverse 
-  sectors to ensure that every transaction&mdash;whether it involves cross-border investments, 
-  complex financing, or strategic mergers&mdash;delivers maximum value and sustainable growth.
-</p>
-
-<p className="text-gray-700 leading-relaxed text-justify">
-  This comprehensive approach ensures that Evian &amp; Co. remains the trusted partner for
-  transactional law in Nigeria, delivering innovative and effective solutions that drive business
-  success in a rapidly evolving marketplace.
-</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-[#fdefe0] py-8 sm:py-12 md:py-16 px-4 md:px-8 lg:px-16">
-        <div className="flex flex-col md:flex-row md:gap-12 lg:gap-20 xl:gap-80 max-w-7xl mx-auto">
-          <h2 className="font-bold mb-6 md:mb-12 uppercase tracking-wider">PRACTICES</h2>
+      <section className="flex bg-[url('/law.svg')] bg-cover bg-no-repeat bg-[#ffff] bg-center min-h-screen items-center">
+        {/* Left Content */}
+        <div className="text-white p-4 md:p-12 lg:p-24 space-y-3 md:space-y-5 max-w-full">
+          <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+            Practise Areas 
+          </h1>
+          <p className="text-sm md:text-base lg:text-lg">
+          Experienced. Strategic. Committed to<br/>
+           Protecting Your Rights and Delivering Results
+          </p>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 w-full">
-            <div className="space-y-4 sm:space-y-6">
-              {leftColumnPractices.slice(0, Math.ceil(leftColumnPractices.length / 2)).map((practice, index) => (
-                <div key={index} 
-                  className="text-[#EFA657] transition-colors text-base sm:text-lg md:text-xl font-medium">
-                  {practice.title}
-                </div>
-              ))}
-            </div>
-
-            <div className="space-y-4 sm:space-y-6">
-              {leftColumnPractices.slice(Math.ceil(leftColumnPractices.length / 2)).map((practice, index) => (
-                <div key={index} 
-                  className="text-[#EFA657] transition-colors text-base sm:text-lg md:text-xl font-medium">
-                  {practice.title}
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
+
+
+    <section className="max-w-7xl mx-auto p-12 bg-white">
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">Transactional</h2>
+        
+        <div className="relative mb-6">
+        <div className="relative h-64 bg-[url('/transac.svg')] bg-cover bg-no-repeat flex items-center justify-center">
+          
+        </div>
+        </div>
+        
+        <div className="prose prose-gray max-w-none">
+          <p className="text-gray-700 leading-relaxed text-justify">
+            record of successfully enforcing intellectual property rights, safeguarding our clients&apos; innovations and 
+            Our Transactional practice is at the forefront of shaping Nigerias commercial landscape and is dedicated to facilitating 
+            successful business deals and partnerships. We advise clients on mergers and acquisitions, joint ventures, corporate 
+            finance, and commercial contracts. With a keen understanding of the Nigerian market and a global perspective, our attorneys
+            provide strategic guidance throughout the transaction process, ensuring that our clients achieve their business objectives
+            while mitigating legal risks. From startups to multinational corporations, we are trusted advisors in navigating 
+             the complexities of business transactions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section className="py-16 bg-white text-black">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      {/* Intellectual Property */}
+      <Link href="/intellectualproperty" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector0.svg" alt="Intellectual Property" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Intellectual Property</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Protecting innovation and creativity through strategic IP counseling and enforcement
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Litigation */}
+      <Link href="/litigation" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector2.svg" alt="Litigation" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Litigation</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Resolving complex disputes through strategic advocacy in courts and arbitration.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Restructuring */}
+      <Link href="/restructuring" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector3.svg" alt="Restructuring" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Restructuring</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Guiding clients through financial and operational turnarounds with tailored legal solutions.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Energy */}
+      <Link href="/energy" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector4.svg" alt="Energy" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Energy</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Advising on regulatory, transactional, and project development across the energy sector.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+
+      {/* Transactional */}
+      <Link href="/transactional" className="block">
+        <div className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 text-center cursor-pointer">
+          <div className="mb-6 flex justify-center">
+            <img src="/Vector5.svg" alt="Transactional" className="w-16 h-16 text-blue-600" />
+          </div>
+          <h3 className="text-xl font-bold text-gray-900 mb-4">Transactional</h3>
+          <p className="text-gray-600 text-sm leading-relaxed mb-6">
+            Guiding clients through deals with precise structuring and negotiation.
+          </p>
+          <div className="flex justify-center">
+            <GoArrowRight className="w-6 h-6 text-blue-600" />
+          </div>
+        </div>
+      </Link>
+      
+    </div>
+  </div>
+</section>
     </>
   )
 }
 
-export default page
+export default Page

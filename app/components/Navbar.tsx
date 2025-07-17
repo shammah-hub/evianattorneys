@@ -12,15 +12,21 @@ import { IoClose } from "react-icons/io5";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const isHomePage = pathname === "/";
 
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "Professionals", path: "/professionals" },
-    { name: "Services", path: "/services" },
-    { name: "Social Commitment", path: "/socialcommitment" },
-    { name: "Careers", path: "/careers" },
-    { name: "News & Insights", path: "/news&insight", isItalic: true },
-    { name: "Location", path: "/locations", isItalic: true },
+    { name: "About Us", path: "/about-us" },
+     { name: "Practice", path: "/practice" },
+     { name: "Attorneys", path: "/attorneys" },
+     { name: "Offices", path: "/offices" },
+     { name: "contact", path: "/contact" },
+    // { name: "Professionals", path: "/professionals" },
+    // { name: "Services", path: "/services" },
+    // { name: "Social Commitment", path: "/socialcommitment" },
+    // { name: "Careers", path: "/careers" },
+    // { name: "News & Insights", path: "/news&insight", isItalic: true },
+    // { name: "Location", path: "/locations", isItalic: true },
   ];
 
   const toggleMenu = () => {
@@ -28,35 +34,35 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="relative bg-white shadow-sm">
-      <div className=" p-2 md:p-1 py-1 border-b border-black bg-[#fdefe0] sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+    <nav className="absolute top-0 left-0 right-0 z-10 bg-transparent">
+      <div className="p-2 md:p-4 py-1 border-none bg-transparent sm:px-6 lg:px-20">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
             width={100}
             height={100}
-              src="/logo.svg"
+              src="/Group 4.svg"
               alt="Evian & Co Attorneys"
-              className="h-8 md:h-10 w-auto"
+              className="h-8 md:h-12 w-auto"
             />
           </Link>
 
           {/* Get Started Button and Menu Button */}
           <div className="flex gap-2 md:gap-10 items-center">
-            <Link
+            {/* <Link
               href="/professionals"
               className="hidden sm:flex items-center bg-[#182492] text-white px-3 py-1 md:px-4 md:py-2 rounded-3xl hover:bg-blue-700 transition-colors text-sm md:text-base"
             >
               Get Started
               <BsArrowRight className="ml-2" />
-            </Link>
+            </Link> */}
 
             <button
               onClick={toggleMenu}
-              className="flex items-center text-gray-700 hover:text-gray-900 focus:outline-none"
+              className="flex items-center text-white hover:text-gray-200 focus:outline-none"
             >
-              <span className="mr-2 text-gray-700 text-sm md:text-base">MENU</span>
+              {/* <span className="mr-2 text-white text-sm md:text-base">MENU</span> */}
               <span className="text-xl">☰</span>
             </button>
           </div>
@@ -87,8 +93,7 @@ export default function Navbar() {
                   className={`
                     block text-xl md:text-2xl font-medium
                     ${pathname === link.path ? 'text-blue-700' : 'text-gray-800'}
-                    ${link.isItalic ? 'italic text-blue-700' : ''}
-                  `}
+ `}
                 >
                   {link.name}
                 </Link>
