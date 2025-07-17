@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link'
+
 
 export default function page() {
   return (
@@ -196,9 +198,11 @@ export default function page() {
                     achieve their goals.
                   </p>
                   <div className="pt-2">
-                    <button className="w-full sm:w-auto font-semibold py-3 px-6 border border-[#182492] text-[#182492] hover:bg-[#182492] hover:text-white transition-colors duration-300">
-                      Meet Our Team
-                    </button>
+                    <Link href="https://www.evianattorneys.com/attorneys">
+                      <button className="w-full sm:w-auto font-semibold py-3 px-6 border border-[#182492] text-[#182492] hover:bg-[#182492] hover:text-white transition-colors duration-300">
+                        Meet Our Team
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
