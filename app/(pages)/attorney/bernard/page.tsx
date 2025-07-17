@@ -44,8 +44,9 @@ function page() {
         </h2>
         
         <div className="space-y-4 text-black">
-          <p className="text-sm md:text-base leading-relaxed text-justify">            Chibuike is an accomplished senior associate and head of the litigation group, 
-            presently contributing to the success of Evian & Co. Within the organization's 
+          <p className="text-sm md:text-base leading-relaxed text-justify">            
+            Chibuike is an accomplished senior associate and head of the litigation group, 
+            presently contributing to the success of Evian & Co. Within the organization&apos;s 
             framework, he plays a pivotal role in guiding financial service providers and 
             corporate clients through regulatory complexities, ensuring adherence to legal 
             standards while enabling efficient and compliant business operations.
@@ -77,7 +78,7 @@ function page() {
           </div>
           
           <p className="text-sm md:text-base leading-relaxed text-justify">
-            Chibuike's thorough grasp of Nigeria's statutory and regulatory systems enables 
+            Chibuike&apos;s thorough grasp of Nigeria statutory and regulatory systems enables 
             him to deliver grounded, commercially viable legal counsel in a fast-changing 
             business environment.
           </p>

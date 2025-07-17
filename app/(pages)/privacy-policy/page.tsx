@@ -162,7 +162,7 @@ function page() {
           <h2 className="text-xl font-bold mb-3">5. Third-party sites</h2>
           <p className="mb-4 text-justify">
             Our websites contain links to other sites, which are controlled by third parties. You should review these 
-            other sites' privacy policies. We do not accept any responsibility for them use of your personal 
+            other sites&apos; privacy policies. We do not accept any responsibility for them use of your personal 
             information.
           </p>
         </div>
