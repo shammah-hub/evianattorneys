@@ -33,7 +33,7 @@ function Page() {
         </div>
         
         <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed">
             In the dynamic business environment of Nigeria, our market-leading Restructuring practice provides critical support 
             to companies facing financial distress or operational challenges. We assist clients in navigating insolvency 
             proceedings, either domestic or cross-border debt restructuring, and corporate reorganizations. Our attorneys work 

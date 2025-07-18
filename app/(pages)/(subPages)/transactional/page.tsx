@@ -33,7 +33,7 @@ function Page() {
         </div>
         
         <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed">
             record of successfully enforcing intellectual property rights, safeguarding our clients&apos; innovations and 
             Our Transactional practice is at the forefront of shaping Nigerias commercial landscape and is dedicated to facilitating 
             successful business deals and partnerships. We advise clients on mergers and acquisitions, joint ventures, corporate 

@@ -33,7 +33,7 @@ function Page() {
         </div>
         
         <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed">
             At Evian & Co Attorney, our Intellectual Property & Technology practice is dedicated to safeguarding the 
             creative and innovative assets of our clients. We offer a full spectrum of services, including trademark 
             registration, patent protection, copyright enforcement, and technology law assessments. Our 

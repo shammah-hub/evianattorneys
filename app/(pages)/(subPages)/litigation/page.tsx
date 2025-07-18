@@ -33,7 +33,7 @@ function Page() {
         </div>
         
         <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed ">
            Our litigation practice is at the forefront of resolving complex legal disputes through litigation, arbitration, and 
            alternative dispute resolution (ADR) mechanisms. It handles high-stakes commercial disputes, regulatory compliance
            actions, and cross-border disputes. Evian & Co. Attorney&apos;s litigators are adept at managing cases in Nigerian courts,

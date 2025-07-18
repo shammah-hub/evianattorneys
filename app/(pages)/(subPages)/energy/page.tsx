@@ -33,7 +33,7 @@ function Page() {
         </div>
         
         <div className="prose prose-gray max-w-none">
-          <p className="text-gray-700 leading-relaxed text-justify">
+          <p className="text-gray-700 leading-relaxed ">
            Evian & Co. Attorney&apos;s Energy practice is deeply rooted in Nigeria&apos;s rich energy sector, which is the heart of its 
            economy. Given Nigeria&apos;s pivotal role in the global energy market, we provide comprehensive expert legal advice on a 
            wide range of energy-related matters, including regulatory compliance, project financing, dispute resolution, joint 

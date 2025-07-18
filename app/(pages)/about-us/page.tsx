@@ -189,7 +189,7 @@ export default function page() {
             <div className="w-full xl:w-1/2 xl:-ml-20 xl:mt-8 z-10">
               <div className="bg-white shadow-lg p-6 sm:p-8 md:p-10 border border-gray-100 hover:shadow-xl transition-shadow duration-300 rounded-lg">
                 <div className="space-y-4 sm:space-y-6">
-                  <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-justify">
+                  <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight ">
                     WORK WITH A TEAM COMMITTED TO DRIVING YOUR SUCCESS FORWARD
                   </h3>
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
