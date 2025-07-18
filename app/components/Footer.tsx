@@ -9,7 +9,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center space-y-4">
           <div className="flex items-center justify-center space-x-4">
-            <a href="#" className="text-white hover:text-blue-300 transition-colors">
+            <a href="https://www.linkedin.com/company/evian-co-attorneys/" className="text-white hover:text-blue-300 transition-colors">
               <Image
                 src="/linkedin.svg"
                 alt="LinkedIn"
@@ -18,7 +18,7 @@ function Footer() {
                 
               />
             </a>
-            <a href="#" className="text-white hover:text-blue-300 transition-colors">
+            <a href="https://x.com/evian_attorneys?s=21" className="text-white hover:text-blue-300 transition-colors">
               <Image
                 src="/twitter.svg"
                 alt="Twitter"
@@ -27,7 +27,7 @@ function Footer() {
                 
               />
             </a>
-            <a href="#" className="text-white hover:text-blue-300 transition-colors">
+            <a href="https://www.instagram.com/evian_attorneys?igsh=MW83ZmhudmJxZ2Y3cw==" className="text-white hover:text-blue-300 transition-colors">
               <Image
                 src="/instagram.svg"
                 alt="Instagram"
@@ -36,7 +36,7 @@ function Footer() {
                 
               />
             </a>
-            <a href="#" className="text-white hover:text-blue-300 transition-colors">
+            <a href="www.youtube.com/@EVIAN_ATTORNEYS" className="text-white hover:text-blue-300 transition-colors">
               <Image
                 src="/youtube.svg"
                 alt="YouTube"

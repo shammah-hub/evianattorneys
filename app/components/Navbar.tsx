@@ -108,16 +108,16 @@ export default function Navbar() {
           {/* Social Media Icons - Bottom Left */}
           <div className="p-6 md:p-8 flex">
             <div className="flex space-x-4 md:space-x-6">
-              <Link href="https://linkedin.com" className="text-gray-800">
+              <Link href="https://www.linkedin.com/company/evian-co-attorneys/" className="text-gray-800">
                 <FaLinkedin size={20} className="md:w-6 md:h-6" />
               </Link>
-              <Link href="https://twitter.com" className="text-gray-800">
+              <Link href="https://x.com/evian_attorneys?s=21" className="text-gray-800">
                 <FaXTwitter size={20} className="md:w-6 md:h-6" />
               </Link>
-              <Link href="https://instagram.com" className="text-gray-800">
+              <Link href="https://www.instagram.com/evian_attorneys?igsh=MW83ZmhudmJxZ2Y3cw==" className="text-gray-800">
                 <FaInstagram size={20} className="md:w-6 md:h-6" />
               </Link>
-              <Link href="https://youtube.com" className="text-gray-800">
+              <Link href="www.youtube.com/@EVIAN_ATTORNEYS" className="text-gray-800">
                 <FaYoutube size={20} className="md:w-6 md:h-6" />
               </Link>
             </div>
