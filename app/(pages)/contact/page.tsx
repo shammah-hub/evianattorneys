@@ -8,7 +8,7 @@ function page() {
         {/* Left Content */}
         <div className="text-white px-4 py-8 sm:px-6 md:px-8 lg:px-12 xl:px-24 space-y-4 md:space-y-6 max-w-full">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Contact 
+            Contact Us
           </h1>
           <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
             Experienced. Strategic. Committed to<br/>

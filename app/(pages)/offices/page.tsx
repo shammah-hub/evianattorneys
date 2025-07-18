@@ -10,7 +10,7 @@ function page() {
         {/* Left Content */}
         <div className="text-white p-4 md:p-12 lg:p-24 space-y-3 md:space-y-5 max-w-full">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-            Practise Areas 
+            Offices 
           </h1>
           <p className="text-sm md:text-base lg:text-lg">
           Experienced. Strategic. Committed to<br/>
