@@ -57,13 +57,7 @@ export default function Navbar() {
               <BsArrowRight className="ml-2" />
             </Link> */}
 
-            <button
-              onClick={toggleMenu}
-              className="flex items-center text-white hover:text-gray-200 focus:outline-none"
-            >
-              {/* <span className="mr-2 text-white text-sm md:text-base">MENU</span> */}
-              <span className="text-xl">☰</span>
-            </button>
+          
           </div>
         </div>
       </div>
