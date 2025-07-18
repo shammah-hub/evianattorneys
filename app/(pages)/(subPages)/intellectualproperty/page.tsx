@@ -34,13 +34,13 @@ function Page() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-gray-700 leading-relaxed">
-            At Evian & Co Attorney, our Intellectual Property & Technology practice is dedicated to safeguarding the 
-            creative and innovative assets of our clients. We offer a full spectrum of services, including trademark 
-            registration, patent protection, copyright enforcement, and technology law assessments. Our 
-            experienced team of seasoned IP practitioners possesses comprehensive expertise in Nigeria and beyond, 
-            ensuring that your intellectual property receives the protection it deserves. We have established a strong 
-            record of successfully enforcing intellectual property rights, safeguarding our clients&apos; innovations and 
-            creative works against infringement.
+            At Evian & Co Attorney, our Intellectual Property & Technology practice is dedicated to safeguarding the
+             creative and innovative assets of our clients. We offer a full spectrum of services, including trademark 
+             registration, patent protection, copyright enforcement, and technology transfer agreements. 
+             Our attorneys are adept at navigating the complexities of intellectual property law in Nigeria and beyond, 
+             ensuring that our clients&apos; rights are protected in an increasingly digital world.
+             We have a proven track record of successfully enforcing intellectual property rights, safeguarding our clients&apos; 
+             innovations and creative works against infringement
           </p>
         </div>
       </div>

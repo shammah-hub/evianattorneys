@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { BsArrowRight } from "react-icons/bs";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -95,7 +94,7 @@ export default function Navbar() {
           </div>
 
           {/* Mobile Get Started Button */}
-          <div className="px-6 pb-4 flex justify-end sm:hidden">
+          {/* <div className="px-6 pb-4 flex justify-end sm:hidden">
             <Link
               href="/start-project"
               onClick={toggleMenu}
@@ -104,7 +103,7 @@ export default function Navbar() {
               Get Started
               <BsArrowRight className="ml-2" />
             </Link>
-          </div>
+          </div> */}
 
           {/* Social Media Icons - Bottom Left */}
           <div className="p-6 md:p-8 flex">

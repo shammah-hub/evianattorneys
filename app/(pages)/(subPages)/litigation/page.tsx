@@ -37,7 +37,9 @@ function Page() {
            Our litigation practice is at the forefront of resolving complex legal disputes through litigation, arbitration, and 
            alternative dispute resolution (ADR) mechanisms. It handles high-stakes commercial disputes, regulatory compliance
            actions, and cross-border disputes. Evian & Co. Attorney&apos;s litigators are adept at managing cases in Nigerian courts,
-           international arbitration forums, and regulatory tribunals, ensuring robust representation, strategic planning, and meticulous preparation that aligns with clients’ objectives. The team also advises on risk mitigation strategies to prevent disputes before they escalate
+           international arbitration forums, and regulatory tribunals, ensuring robust representation, strategic planning, 
+           and meticulous preparation that aligns with clients’&apos; objectives. The team also advises on risk mitigation 
+           strategies to prevent disputes before they escalate
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ function Page() {
         {/* Left Content */}
         <div className="text-white p-4 md:p-12 lg:p-24 space-y-3 md:space-y-5 max-w-full">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
-            Practise Areas 
+            Practice Areas 
           </h1>
           <p className="text-sm md:text-base lg:text-lg">
           Experienced. Strategic. Committed to<br/>
@@ -34,13 +34,13 @@ function Page() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-gray-700 leading-relaxed">
-            record of successfully enforcing intellectual property rights, safeguarding our clients&apos; innovations and 
-            Our Transactional practice is at the forefront of shaping Nigerias commercial landscape and is dedicated to facilitating 
-            successful business deals and partnerships. We advise clients on mergers and acquisitions, joint ventures, corporate 
-            finance, and commercial contracts. With a keen understanding of the Nigerian market and a global perspective, our attorneys
-            provide strategic guidance throughout the transaction process, ensuring that our clients achieve their business objectives
-            while mitigating legal risks. From startups to multinational corporations, we are trusted advisors in navigating 
-             the complexities of business transactions.
+            Our Transactional practice is at the forefront of shaping Nigeria&apos;s commercial landscape and
+             is dedicated to facilitating successful business deals and partnerships. We advise clients on 
+             mergers and acquisitions, joint ventures, corporate finance, and commercial contracts.
+              With a keen understanding of the Nigerian market and a global perspective, our attorneys provide
+               strategic guidance throughout the transaction process, ensuring that our clients achieve their 
+               business objectives while mitigating legal risks. From startups to multinational corporations, 
+               we are trusted advisors in navigating the complexities of business transactions.
           </p>
         </div>
       </div>
