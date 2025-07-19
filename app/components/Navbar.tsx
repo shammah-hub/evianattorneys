@@ -6,7 +6,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { FaLinkedin, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { IoClose } from "react-icons/io5";
+import { IoClose, IoMenu } from "react-icons/io5"; // Added IoMenu import
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,7 +56,14 @@ export default function Navbar() {
               <BsArrowRight className="ml-2" />
             </Link> */}
 
-          
+            {/* Hamburger Menu Button */}
+            <button
+              onClick={toggleMenu}
+              className="text-white hover:text-gray-600 transition-colors"
+              aria-label="Toggle menu"
+            >
+              <IoMenu size={28} className="md:w-8 md:h-8" />
+            </button>
           </div>
         </div>
       </div>
@@ -92,18 +99,6 @@ export default function Navbar() {
               ))}
             </div>
           </div>
-
-          {/* Mobile Get Started Button */}
-          {/* <div className="px-6 pb-4 flex justify-end sm:hidden">
-            <Link
-              href="/start-project"
-              onClick={toggleMenu}
-              className="flex items-center bg-[#182492] text-white px-4 py-2 rounded-3xl hover:bg-blue-700 transition-colors"
-            >
-              Get Started
-              <BsArrowRight className="ml-2" />
-            </Link>
-          </div> */}
 
           {/* Social Media Icons - Bottom Left */}
           <div className="p-6 md:p-8 flex">
