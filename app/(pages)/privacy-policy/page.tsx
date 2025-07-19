@@ -12,8 +12,7 @@ function page() {
           <p className="text-sm md:text-base lg:text-lg">
           Experienced. Strategic. Committed to<br/>
            Protecting Your Rights and Delivering Results
-          </p>
-          
+          </p>         
         </div>
       </section>
 
@@ -23,13 +22,13 @@ function page() {
         <div>
          <h2 className="text-xl font-bold mb-3">1. About us</h2>
           <p className="mb-4 text-justify">
-            Here at Evian Attorneys & Co., we are committed to safeguarding the privacy of the confidential and 
+            Here at Evian & Co. Attorneys, we are committed to safeguarding the privacy of the confidential and 
             &quot;Personal Information&quot; (information that directly or indirectly identifies individuals who may be clients, 
             staff, agents, lawyers, law students, job applicants or others inside or outside the firm) that is provided to 
             us or collected by us during our business.
           </p>
           <p className="mb-4 text-justify">
-            This Privacy Policy sets out how Evian Attorneys & Co. may collect and use any personal information that 
+            This Privacy Policy sets out how Evian & Co. Attorneys may collect and use any personal information that 
             we obtain about you and your rights in relation to that information. It also sets out how to contact us if 
             you have any questions about this Privacy policy or want to make a complaint to us about how we handle 
             your personal information.
@@ -59,14 +58,16 @@ function page() {
           </p>
           <p className="mb-4 text-justify">
             We use a third-party service provider to manage the firm&apos;s contact database and deliver emails to 
-            inform you about our services, legal developments and updates and invite you to Evian Attorneys & Co. 
+            inform you about our services, legal developments and updates and invite you to Evian & Co. Attorneys 
             events (including those we may jointly host with other organizations).
           </p>
           <p className="mb-4 text-justify">
             You can control the information you receive through our direct marketing function by using the 
             &quot;Managing your preferences&quot; option at the bottom of the emails. If you no longer wish to receive 
             marketing emails relating to our services by email or post, you can unsubscribe at any time by using the 
-            &quot;Unsubscribe&quot; option on the email footer or by contacting info@evian-attorneys.com
+            &quot;Unsubscribe&quot; option on the email footer or by contacting <span><a href="mailto:info@evianattorneys.com" className="text-blue-600 hover:text-blue-800 underline">
+              info@evianattorneys.com
+            </a></span>
           </p>
 
           <h3 className="text-lg font-semibold mb-2">2.3 Recruitment</h3>
@@ -75,7 +76,7 @@ function page() {
             personal information, including special categories of personal information (for example, details of 
             extenuating circumstances). You application directly to us or via a recruitment agency will constitute 
             your express consent to our use of this information. We will use this information to consider your 
-            application for a position with Evian Attorneys & Co. We may also use the information to carry out 
+            application for a position with Evian & Co. Attorneys We may also use the information to carry out 
             checks to verify the information provided by you (including reference, background, identity, suitability, 
             etc.).
           </p>
@@ -133,7 +134,9 @@ function page() {
             and/or providing legal services will be retained in accordance with the firm&apos;s Retention and destruction 
             policy unless we agree otherwise with you in writing. If you wish to know more about the firm&apos;s 
             Retention and destruction policy for any of the firm&apos;s different retention periods, please contact 
-            info@evian-attorneys.com
+            <span><a href="mailto:info@evianattorneys.com" className="text-blue-600 hover:text-blue-800 underline">
+              info@evianattorneys.com
+            </a></span>
           </p>
         </div>
 
@@ -192,8 +195,8 @@ function page() {
           
           <p className='text-justify'>
             If you would like to exercise any of these rights, please contact us by emailing{' '}
-            <a href="mailto:info@evian-attorneys.com" className="text-blue-600 hover:text-blue-800 underline">
-              info@evian-attorneys.com
+            <a href="mailto:info@evianattorneys.com" className="text-blue-600 hover:text-blue-800 underline">
+              info@evianattorneys.com
             </a>
           </p>
         </div>

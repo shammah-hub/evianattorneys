@@ -23,7 +23,7 @@ function Page() {
 
 
     <section className="max-w-7xl mx-auto p-12 bg-white">
-      <div className="mb-8">
+      <div className="mb-8 bg-white">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">Energy and natural resources</h2>
         
         <div className="relative mb-6">
