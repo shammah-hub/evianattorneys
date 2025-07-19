@@ -47,11 +47,11 @@ function page() {
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Phone</span>
-                  <span className="text-gray-600 text-sm">+2349049002761</span>
+                  <span className="text-gray-600 text-sm">+2349040022761</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Email</span>
-                  <span className="text-gray-600 text-sm">info@venan-attorneys.com</span>
+                  <span className="text-gray-600 text-sm">info@evianattorneys.com</span>
                 </div>
               </div>
             </div>
@@ -77,11 +77,11 @@ function page() {
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Phone</span>
-                  <span className="text-gray-600 text-sm">+2349049002761</span>
+                  <span className="text-gray-600 text-sm">+2349040022761</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Email</span>
-                  <span className="text-gray-600 text-sm">info@venan-attorneys.com</span>
+                  <span className="text-gray-600 text-sm">info@evianattorneys.com</span>
                 </div>
               </div>
             </div>
@@ -104,11 +104,11 @@ function page() {
               <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Phone</span>
-                  <span className="text-gray-600 text-sm">+447917490462</span>
+                  <span className="text-gray-600 text-sm">+447917490452</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="text-gray-700 font-medium text-sm">Email</span>
-                  <span className="text-gray-600 text-sm">info@venan-attorneys.com</span>
+                  <span className="text-gray-600 text-sm">info@evianattorneys.com</span>
                 </div>
               </div>
             </div>

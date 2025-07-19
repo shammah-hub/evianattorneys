@@ -112,7 +112,7 @@ export default function Navbar() {
               <Link href="https://www.instagram.com/evian_attorneys?igsh=MW83ZmhudmJxZ2Y3cw==" className="text-gray-800">
                 <FaInstagram size={20} className="md:w-6 md:h-6" />
               </Link>
-              <Link href="https://www.youtube.com/@EVIAN_ATTORNEYS" className="text-gray-800">
+             <Link href="https://www.youtube.com/@EVIAN_ATTORNEYS" className="text-gray-800">
                 <FaYoutube size={20} className="md:w-6 md:h-6" />
               </Link>
             </div>

@@ -36,7 +36,7 @@ function Footer() {
                 
               />
             </a>
-            <a href="www.youtube.com/@EVIAN_ATTORNEYS" className="text-white hover:text-blue-300 transition-colors">
+            <a href="https://www.youtube.com/@EVIAN_ATTORNEYS" className="text-white hover:text-blue-300 transition-colors">
               <Image
                 src="/youtube.svg"
                 alt="YouTube"
